@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1613241540">
+  <File Type="PA-TCL" Name="seven_bit_subtr.tcl"/>
+  <File Type="REPORTS-TCL" Name="seven_bit_subtr_reports.tcl"/>
+  <File Type="RDS-RDS" Name="seven_bit_subtr.vds"/>
+  <File Type="RDS-UTIL" Name="seven_bit_subtr_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="seven_bit_subtr_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="seven_bit_subtr.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/four_bit_adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_2.srcs/sources_1/new/four_bit_adder.v"/>
+        <Attr Name="ImportTime" Val="1613181624"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/one_bit_adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_2.srcs/sources_1/new/one_bit_adder.v"/>
+        <Attr Name="ImportTime" Val="1613181465"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/three_bit_adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_2.srcs/sources_1/new/three_bit_adder.v"/>
+        <Attr Name="ImportTime" Val="1613181555"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/seven_bit_subtr.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_2.srcs/sources_1/new/seven_bit_subtr.v"/>
+        <Attr Name="ImportTime" Val="1613241526"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="seven_bit_subtr"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/basys_3_constraint.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../assignment_lab_2.srcs/constrs_1/new/basys_3_constraint.xdc"/>
+        <Attr Name="ImportTime" Val="1613240663"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
